@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Get Help</title>
+
+  <meta name=viewport content='width=450'>
+
+  <style>
+    img {
+      max-width: 100%
+    }
+    .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  </style>
+  
+  <script>
+  var the_page = "asdf"
+    function helpehlpehlp()
+    {
+      var BUGGER = "Trump"
+      var zip =  document.getElementById("zip_text").value
+      //alert(BUGGER+"-"+zip+".html")
+      the_page = BUGGER+"-"+zip+".html"
+      console.log(the_page)
+      //window.location.href = the_page
+      setTimeout(goNext,1)
+      console.log(the_page)
+      //alert(BUGGER+"-"+zip+".html")
+      
+      return false
+    }
+    function goNext()
+    {
+      window.location.href = the_page
+    }
+    
+  </script>
+  
+  </head>
+<body>
+<div class=center>
+<center>
+<form onsubmit="helpehlpehlp()">
+Enter your zipcode and we'll see if we can find some help:<br>
+&nbsp;<br>
+zip = <input type=text id="zip_text"><br>
+&nbsp;<br>
+<input class=submit type=submit value="Help">
+</form>
+
+</div>
+</body>
+</html

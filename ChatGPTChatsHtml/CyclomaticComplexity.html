@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cyclomatic Complexity</title>
+    <style type="text/css">
+      body
+      { margin:40px auto;
+        max-width:650px;
+        line-height:1.6;
+        font-size:18px;
+        color:#444;
+        padding:0 10px
+      }
+      h1,h2,h3 { line-height:1.2 }
+    </style>
+  </head>
+  <body>
+  <p><a href=index.html>Index of Chats</a></p>
+  <p><h1>Cyclomatic Complexity</h1></p>
+<h2>Sean</h2>When talking about computer programming, what is cyclomatic complexity?<h2>ChatGPT</h2><br>
+Cyclomatic complexity is a software metric used to measure the complexity of a program. It was introduced by Thomas McCabe in 1976 and is often used in the realm of software testing. The metric quantifies the number of linearly independent paths through a program's source code, effectively capturing the amount of decision logic in a program.<br>
+&nbsp;<br>
+In simple terms, it gives an idea about the number of distinct paths through a given piece of code, which can help in understanding the effort required to test the code or the potential risk that comes with modifying the code.<br>
+&nbsp;<br>
+The cyclomatic complexity MM of a module (like a function or a method) is calculated using the formula:<br>
+M=E−N+2PM=E−N+2P<br>
+Where:<br>
+&nbsp;<br>
+    EE = the number of edges (transfers of control)<br>
+    NN = the number of nodes (sequential group of statements)<br>
+    PP = the number of connected components (usually 1 for a program)<br>
+&nbsp;<br>
+For a simple function:<br>
+&nbsp;<br>
+python<br>
+&nbsp;<br>
+def simple_function(x):<br>
+    if x > 10:<br>
+        return True<br>
+    else:<br>
+        return False<br>
+&nbsp;<br>
+There's one decision point (the if statement), so the cyclomatic complexity would be 2 (two paths: one where x > 10 and one where x <= 10).<br>
+&nbsp;<br>
+Higher cyclomatic complexity indicates a potentially more complicated and harder-to-test program. It can be a useful metric, but like all metrics, it should be used judiciously and in context. A high cyclomatic complexity might suggest that a function or method is doing too much and could benefit from refactoring, but it doesn't necessarily indicate poor code quality on its own. Similarly, a very low complexity doesn't automatically mean the code is of high quality.<h2>Sean</h2>Give some examples of edges and nodes.<h2>ChatGPT</h2><br>
+Certainly! In the context of cyclomatic complexity and program representation, the terms "nodes" and "edges" are derived from graph theory. When a program is represented as a control flow graph:<br>
+&nbsp;<br>
+    Nodes represent blocks of sequential code without any branching. They are parts of the program where the flow of control runs linearly, without decisions.<br>
+&nbsp;<br>
+    Edges represent the transfer of control between nodes. They often correspond to branches or jumps in the source code.<br>
+&nbsp;<br>
+Let's dive deeper with an example:<br>
+&nbsp;<br>
+Consider the following pseudo-code:<br>
+&nbsp;<br>
+markdown<br>
+&nbsp;<br>
+1. start<br>
+2. if A then<br>
+3.     perform Action X<br>
+4. else<br>
+5.     perform Action Y<br>
+6. end if<br>
+7. perform Action Z<br>
+8. end<br>
+&nbsp;<br>
+Here's a rough breakdown of nodes and edges:<br>
+&nbsp;<br>
+    Nodes:<br>
+        Entry/start of the program.<br>
+        The decision of if A.<br>
+        The block where Action X is performed.<br>
+        The block where Action Y is performed.<br>
+        The block where Action Z is performed.<br>
+        Exit/end of the program.<br>
+&nbsp;<br>
+    Edges:<br>
+        From the start to if A.<br>
+        From if A to Action X (for the True branch).<br>
+        From if A to Action Y (for the False branch).<br>
+        From Action X to Action Z.<br>
+        From Action Y to Action Z.<br>
+        From Action Z to the end of the program.<br>
+&nbsp;<br>
+This is a simplistic example, but in real-world programs, especially large ones, the control flow graph can get quite intricate with many nodes and edges due to loops, nested conditions, switch cases, and function calls. By analyzing the graph with the nodes and edges, cyclomatic complexity can help deduce the number of linearly independent paths, giving an idea about the decision-making complexity of the code.<h2>Sean</h2>What is the cyclomatic complexity of that example?<h2>ChatGPT</h2><br>
+Let's compute the cyclomatic complexity using the formula:<br>
+M=E−N+2PM=E−N+2P<br>
+Where:<br>
+&nbsp;<br>
+    EE = number of edges<br>
+    NN = number of nodes<br>
+    PP = number of connected components (for a single program, it's typically 1)<br>
+&nbsp;<br>
+From our breakdown for the given pseudo-code:<br>
+&nbsp;<br>
+    EE = 6 (edges)<br>
+    NN = 6 (nodes)<br>
+    PP = 1 (since this is one single program or module)<br>
+&nbsp;<br>
+Plugging these values into the formula:<br>
+M=6−6+2(1)M=6−6+2(1)<br>
+M=6−6+2M=6−6+2<br>
+M=2M=2<br>
+&nbsp;<br>
+So, the cyclomatic complexity of the given pseudo-code is 2. This means there are two linearly independent paths through the code. One path is when the condition A is true (Action X is performed), and the other path is when the condition A is false (Action Y is performed).<h2>Sean</h2>Give a simplistic example that includes a loop and calculate the cyclomatic complexity of that program.<h2>ChatGPT</h2><br>
+Certainly! Let's consider a simple program with a loop:<br>
+&nbsp;<br>
+pseudo<br>
+&nbsp;<br>
+1. start<br>
+2. for i = 1 to 3 do<br>
+3.     if i is odd then<br>
+4.         perform Action X<br>
+5.     else<br>
+6.         perform Action Y<br>
+7.     end if<br>
+8. end for<br>
+9. perform Action Z<br>
+10. end<br>
+&nbsp;<br>
+Breaking it down:<br>
+&nbsp;<br>
+    Nodes:<br>
+        Entry/start of the program.<br>
+        The decision/initiation of for loop (i = 1 to 3).<br>
+        The decision of if i is odd.<br>
+        The block where Action X is performed.<br>
+        The block where Action Y is performed.<br>
+        The block where Action Z is performed.<br>
+        Exit/end of the program.<br>
+&nbsp;<br>
+    Edges:<br>
+        From start to the for loop.<br>
+        From for loop decision to if i is odd.<br>
+        From if i is odd to Action X (for the True branch).<br>
+        From if i is odd to Action Y (for the False branch).<br>
+        From Action X back to the for loop decision.<br>
+        From Action Y back to the for loop decision.<br>
+        From the for loop end to Action Z.<br>
+        From Action Z to the end.<br>
+&nbsp;<br>
+Using the cyclomatic complexity formula:<br>
+M=E−N+2PM=E−N+2P<br>
+Where:<br>
+&nbsp;<br>
+    EE = 8 (edges)<br>
+    NN = 7 (nodes)<br>
+    PP = 1 (it's a single program)<br>
+&nbsp;<br>
+M=8−7+2(1)M=8−7+2(1)<br>
+M=8−7+2M=8−7+2<br>
+M=3M=3<br>
+&nbsp;<br>
+So, the cyclomatic complexity of this pseudo-code is 3. This makes sense because there are three main paths:<br>
+&nbsp;<br>
+    Loop runs with an odd value of i (performing Action X).<br>
+    Loop runs with an even value of i (performing Action Y).<br>
+    After the loop completes, perform Action Z.<br>
+<h2>Sean</h2>That was quite informative; thank you.<h2>ChatGPT</h2><br>
+You're welcome! I'm glad I could help. If you have any more questions or need further clarification on any topic, feel free to ask. Happy coding!<br>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+hmm, I wonder if I could grab a domain name. Maybe a wordpress area?
+
+#FAQ; 
+
+## Why'd you choose it?
+I interviewed co-workers who got, or went for grad-degrees and most did not enjoy it, but one guy just started gushing about how awsome his was; he was going to Georgia Tech. The only other thought that I had was that $800 to try one class and see if I felt like it was a bargain (whereas $3,000+ per class at any other university meant I had to look into getting assistance and otherwise, planning hard to justify the expendature).
+
+Post facto justification though has been: Georgia Tech is one of the top 10 universities in the world for AI (which I thought, correctly, would be a fun subject to spice up years of otherwise dense algorithm study). It's OMS was built to focus on and support online students (at my undergrad (U.O.P., there will be barely functional online tools for some courses (e.g. BlackBoard), because the courses were really about physically attending the lectures and interacting with proffessors. I've heard a lot of online programs are duct-taped onto classes with these tools and on-line students' needs are an afterthought; I have no way to determine which colleges might be doing this). And of course, the economicality of it; even for a Software Dev, $8k vs $30 is a significant difference and for me a qualitatively differnt sum of money (i.e. if my company re-embursed me, I'd be their indentured servant; $5k is about the amount I alocate every year for vacation, $5k is all you get tax free re-umbursment from your company)
+https://www.usnews.com/best-graduate-schools/top-science-schools/artificial-intelligence-rankings
+
+
+## So, it was a degree mill?
+Either no, or I never realized how hard you had to work for these degrees the degree mills are "giving out".
+
+Georgia Tech is in the top ten Universities at which you can study Artificial Intelligence (which is the subject I thought would be most fun):
+
+They like to refer to MIT as the "GT of the North". And the degree I've got doesn't even specify online so their putting their whole on campus master's reputation on the line for the 500 or so graduates this online program is prducing every year.
+
+
+## Was it hard?
+Well, I haven't tried any other graduate programs. There were 10 classes that were all about as hard as any upper level C.S. course.
+
+When compared to undergraduate courses, the teachers didn't hold your hand as much, as in, you don't get detailed instructions on how to do the homework assignments from the teachers; you had to figure out how to find and install required packages and design solutions on your own. Some projects allow you to choose whatever language you like. However, students on Piazza(tm) would walk you through the difficult parts and share common framework or design choices to get you through the 
+
+Some of the material a C.S. Graduate will already know and alot of the material I learned from some classes, covered sections from other classes that I was able to skate through.
+ 
+I would imagine many of these classes would be very difficult to someone coming from outside CS. All classes required basic familiarity with Java, Python, Big O notation among other things. There were many questions and concerns on piazza from students who had studied something else in undergrad.
+ 
+ 
+ ## What about the time comitment?
+ Like upper level CS courses, 3 credit hours = 9-12 work hours per week. I took 1 course at a time, which stretched the program over 3.3 years, but worked for me and allowed me to earn straight As. (Though I owe some forgiving TAs thanks for saveing my GPA)
+ 
+9-12 hours a week meant watching some lectures and checking piazza over a couple week nights, and then doing nothing but homework one week-end day. Though, especially at the begining, I'd often be lazy; I'd enjoy a couple weekends, then need to take time off work and pound out projects or cram for tests over 2-4 days before the due date.
+ 
+ Also, every vacation from work, may not coincide with a break from school; I was chained to a laptop (or phone) on three of my annual vacations, doing homework and watching lectures while others lounged, shopped or slept. Crunch time at work is extra-crunchy as you have to work long weeks to get work done, and then go home to get homework done.
+ 
+ I know a lot of other students took 2-3 classes at a time, sacrificing life, accepting Bs and occasionally retaking classes, but "getting out" much faster. I was jealous, but never actaully tried.
+ 
+ The downside of my strategy is that the program is a minor focus of your life for a whole 3.3 years. Youth is valued in the tech world, and Machine Learning (my specialization) was the buzzword when I started, luckily still is, but the focus has switched and changed drastically, timing was key.
+ 
+ 
+ ## What was your thesis?
+ 
+ ## Did you learn anything?
+ Yes!
+ 
+ Also not as much as I wanted; I don't feel ready for real-world applications of ML  or handling Big Data without some experienced co-workers. Also the hottest class of ML right now, "Deep Learning", was barely touched by the program and I'm working to self study it now. Hopefully I can produce some shareable projects in this area and prove to myself and recruiters how great I am.
+ 
+ 
+ 
+ 
+ Some other things I want to talk about:
+  * Proctor track
+  * Studying on the beach
+  * Favorite part? DeepQL
+  * off campus 
+    * No young girlies to chase
+    * No focus
+    * No advisors that might take you into a PHD
+    * No startup scene
+    * no peers closer than 5,000 miles!
+ 
+ 
+
+ 
+ # Responses to comments I've seen online
+ 
+ Harvard lets everyone in...
+ 
+ I've heard some people are more impressed you got your degree while working
+ 
+ 
