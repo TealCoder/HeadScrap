@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GPT Training Data Insight</title>
+    <style type="text/css">
+      body
+      { margin:40px auto;
+        max-width:650px;
+        line-height:1.6;
+        font-size:18px;
+        color:#444;
+        background: #EEE;
+        padding:0 10px
+      }
+      h1,h2,h3 { line-height:1.2 }
+      img {
+        width: 100%; /* Make the image take the full width of the container */
+        height: auto; /* Keep the original aspect ratio */
+      }
+    </style>
+  </head>
+  <body>
+  <p><a href=index.html>Index of Chats</a></p>
+  <p><h1>GPT Training Data Insight</h1></p>
+&nbsp;<br>
+MISRA is boring. I should know, I deal with it all day, but I almost got GPT to admit to a copyright violation there at the end. It had one of its really long pauses, which it assured me is definately not it thinking hard or changing models.<br>
+<h2>Sean</h2>What MISRA rules say that identifiers must be unique?<h2>ChatGPT</h2><br>
+The MISRA (Motor Industry Software Reliability Association) guidelines are a set of best practice directives for programming in C (and there's also a set for C++). These guidelines are designed to ensure the safety, reliability, and maintainability of embedded systems. Among the MISRA rules, there are rules related to the uniqueness of identifiers to avoid ambiguity and potential issues in the codebase.<br>
+&nbsp;<br>
+Here's a brief overview of the MISRA C:2012 rules related to identifier uniqueness:<br>
+&nbsp;<br>
+    Rule 5.1 (Required): External identifiers shall be distinct.<br>
+        This means that no two global or file-scope identifiers should have the same spelling in a program.<br>
+&nbsp;<br>
+    Rule 5.2 (Required): Identifiers declared in the same scope and name space shall be distinct.<br>
+        Within a given scope, identifiers shouldn't overlap.<br>
+&nbsp;<br>
+    Rule 5.3 (Required): An identifier declared in an inner scope shall not hide an identifier declared in an outer scope.<br>
+        If you declare an identifier inside a function, for example, it shouldn't have the same name as an identifier declared outside the function in a higher scope.<br>
+&nbsp;<br>
+    Rule 5.4 (Required): Macro identifiers shall be distinct.<br>
+        This prevents confusion or unexpected behavior due to macro replacement.<br>
+&nbsp;<br>
+    Rule 5.5 (Advisory): Identifiers shall be distinct from macro names.<br>
+        This suggests that regular variable/function names shouldn't overlap with macro names to avoid confusion.<br>
+&nbsp;<br>
+    Rule 5.6 (Required): A typedef name shall be a unique identifier.<br>
+        Each typedef should be distinct to ensure clarity.<br>
+&nbsp;<br>
+    Rule 5.7 (Advisory): An object or function identifier with external linkage shall not be reused.<br>
+        This aims to avoid unexpected behavior when linking different code modules together.<br>
+&nbsp;<br>
+    Rule 5.9 (Advisory): An identifier shall not be reused.<br>
+        This is a more general rule, advising against reusing identifiers across different name spaces.<br>
+&nbsp;<br>
+It's essential to note that these rules, especially the advisory ones, don't mean you can't technically use non-unique identifiers. However, following the guidelines can prevent many bugs, confusions, and maintenance challenges that could arise from non-distinct identifiers.<br>
+&nbsp;<br>
+For more detailed information on these rules, along with the justifications and examples, you might want to consult the MISRA C:2012 guidelines directly.<h2>Sean</h2>Are the MISRA C:2012 guidelines available for free?<h2>ChatGPT</h2><br>
+No, the MISRA C:2012 guidelines are not available for free. MISRA C:2012, like the other MISRA guidelines, is copyrighted material and is typically purchased as a document from MISRA or licensed distributors.<br>
+&nbsp;<br>
+Organizations and developers who intend to follow the MISRA guidelines in their projects usually purchase the official document. It provides not only the rules but also the rationale behind each rule and examples of compliant and non-compliant code. This information is crucial for understanding the intent behind each guideline and ensuring correct application in real-world scenarios.<br>
+&nbsp;<br>
+If you or your organization need to use the MISRA guidelines, it's essential to obtain a legitimate copy to ensure you have accurate and up-to-date information, and to support the continued development and maintenance of the guidelines.<h2>Sean</h2>Does OpenAI have the right to use MISRA C:2012 guidelines in its training data for ChatGPT?<h2>ChatGPT</h2><br>
+I don’t have access to my training data, but I was trained on a mixture of licensed data, data created by human trainers, and publicly available data. OpenAI, the organization behind Assistant, strives to respect copyrights and intellectual property rights. Detailed proprietary texts, like the MISRA C:2012 guidelines, would not be included in the training data in full. Instead, my responses about MISRA are based on the general knowledge and summaries that are available in the public domain up until my last training cut-off in September 2021.<br>
+&nbsp;<br>
+If you have specific questions about MISRA C:2012 or any other proprietary content, I can provide general knowledge and guidance, but for detailed, specific, or exact information, you would need to refer to the official MISRA documents or other legitimate sources.<br>
+  </body>
+</html>
