@@ -1,6 +1,6 @@
-hmm, I wonder if I could grab a domain name. Maybe a wordpress area?
+# FAQs About my Graduate Degree
 
-#FAQ; 
+I make a lot of online and offline responses to people wondering about Georgia Tech's Online Masters in Computer Science.
 
 ## Why'd you choose it?
 I interviewed co-workers who got, or went for grad-degrees and most did not enjoy it, but one guy just started gushing about how awsome his was; he was going to Georgia Tech. The only other thought that I had was that $800 to try one class and see if I felt like it was a bargain (whereas $3,000+ per class at any other university meant I had to look into getting assistance and otherwise, planning hard to justify the expendature).
@@ -40,11 +40,12 @@ I would imagine many of these classes would be very difficult to someone coming 
  
  
  ## What was your thesis?
+Looks like you can actually do a thesis online but I failed to take advantage of this. And have to explain this in every interview for the rest of my life.
  
  ## Did you learn anything?
  Yes!
  
- Also not as much as I wanted; I don't feel ready for real-world applications of ML  or handling Big Data without some experienced co-workers. Also the hottest class of ML right now, "Deep Learning", was barely touched by the program and I'm working to self study it now. Hopefully I can produce some shareable projects in this area and prove to myself and recruiters how great I am.
+ Also not as much as I wanted; I don't feel ready for real-world applications of ML or handling Big Data without some experienced co-workers. Also the hottest type of ML right now, "Deep Learning", was barely touched by the program (update: they now offer a Deep Learning course) and I'm working to self study it now. Hopefully I can produce some shareable projects in this area and prove to myself and recruiters how great I am.
  
  
  
