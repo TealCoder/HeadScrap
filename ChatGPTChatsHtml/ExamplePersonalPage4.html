@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name's Personal Page</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            background: #e6f2ff url('path_to_background_image.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        .page-container {
+            display: flex;
+        }
+        .content-container {
+            flex: 2;
+            width: 70%;
+            max-width: 700px;
+        }
+        nav {
+            flex: 1;
+            border-right: 1px solid #c1d8e7; /* Light blue shade for a subtle border */
+        }
+        section, article {
+            margin-bottom: 50px; 
+            padding: 20px;
+            border: 1px solid #c1d8e7;
+            border-radius: 5px;
+            background-color: #ffffff; /* White background to ensure readability */
+        }
+        .header, .section-title { 
+            font-size: 24px; 
+            font-weight: bold; 
+            color: #003366; /* Dark blue color for headings */
+        }
+        img { 
+            max-width: 100%; 
+            height: auto; 
+        }
+        a {
+            color: #0066cc; /* Blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-container">
+
+    <nav>
+        <span class="section-title">Navigation</span>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#hobbies">Hobbies & Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-container">
+
+        <section id="home">
+            <span class="header">Welcome to John Doe's Personal Page</span>
+            <p>I'm John, an average middle-aged individual with a zest for running, machine learning, and computer games. Join me as I navigate the realms of the latest AI innovations and embark on epic gaming adventures.</p>
+        </section>
+
+        <section id="about">
+            <span class="section-title">About Me</span>
+            <img src="path_to_your_image.jpg" alt="John Doe">
+            <p>Originally from Austin, Texas, I've been involved in the tech industry for over 20 years. My journey started with building custom gaming PCs in my garage. It was this initial love for gaming that eventually got me fascinated by machine learning and AI. How do game engines work? What's behind the NPC's decision-making? These questions led me to pursue a career in AI.</p>
+            <p>When I'm not working or gaming, you'll find me training for my next marathon. Running offers a kind of meditative solace, a contrast to the fast-paced world of tech and gaming.</p>
+        </section>
+
+        <section id="portfolio">
+            <span class="section-title">Portfolio</span>
+            <p>Over the years, I've been a part of various exciting projects. Here's a glimpse:</p>
+
+            <h3>AI Chess Engine</h3>
+            <p>Developed a custom chess engine that uses deep learning to predict opponents' moves. This project was inspired by my love for strategy games and a desire to understand game mechanics better.</p>
+
+            <h3>Game Level Designer Tool</h3>
+            <p>Built a level designer tool integrated with popular game engines, allowing game developers to create intricate and detailed levels using AI suggestions.</p>
+        </section>
+
+        <section id="hobbies">
+            <span class="section-title">Hobbies & Interests</span>
+            <p>Besides my professional interests, I'm a passionate runner. I've completed five marathons, with my personal best being 3 hours and 40 minutes. Gaming is another hobby close to my heart. I've been playing games from classic titles like 'Doom' and 'Quake' to recent ones like 'The Witcher 3' and 'Cyberpunk 2077'.</p>
+        </section>
+
+        <section id="contact">
+            <span class="section-title">Contact Me</span>
+            <p>If you'd like to get in touch, collaborate on a project, or just chat about the latest in AI or gaming, feel free to email me at john.doe@example.com or connect with me on LinkedIn.</p>
+        </section>
+
+        <article id="blog">
+            <span class="section-title">Latest Blog Post</span>
+            <h2>The Intersection of AI and Gaming</h2>
+            <p>Games have come a long way since the 8-bit era. Today, they are complex pieces of software, often harnessing the power of AI. In my recent experiments, I've delved deep into how AI influences modern game mechanics. Join me as I unravel the mysteries of game algorithms and explore the future of gaming with AI.</p>
+        </article>
+
+
+    </div>
+
+</div>
+
+</body>
+</html>

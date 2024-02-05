@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name's Personal Page</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            background: #e6f2ff url('path_to_background_image.jpg') no-repeat center top;
+            background-size: cover;
+        }
+        .page-container {
+            display: flex;
+        }
+        .content-container {
+            flex: 2;
+            width: 70%;
+            max-width: 700px;
+        }
+        nav {
+            flex: 1;
+            border-right: 1px solid #c1d8e7; /* Light blue shade for a subtle border */
+        }
+        section, article {
+            margin-bottom: 50px; 
+            padding: 20px;
+            border: 1px solid #c1d8e7;
+            border-radius: 5px;
+            background-color: #ffffff; /* White background to ensure readability */
+        }
+        .header, .section-title { 
+            font-size: 24px; 
+            font-weight: bold; 
+            color: #003366; /* Dark blue color for headings */
+        }
+        img { 
+            max-width: 100%; 
+            height: auto; 
+        }
+        a {
+            color: #0066cc; /* Blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-container">
+
+    <nav>
+        <span class="section-title">Navigation</span>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#hobbies">Hobbies & Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </nav>
+
+    <div class="content-container">
+
+    <section id="home">
+        <span class="header">Welcome to My Personal Page</span>
+        <p>I'm an average middle-aged white guy passionate about running, machine learning, and computer games.</p>
+    </section>
+
+    <section id="about">
+        <span class="section-title">About Me</span>
+        <p>Here's a bit more about me. [Add more details here.]</p>
+        <img src="path_to_your_image.jpg" alt="Your Image">
+    </section>
+
+    <section id="portfolio">
+        <span class="section-title">Portfolio</span>
+        <p>Here are some of my projects and works related to machine learning and other areas.</p>
+        <!-- You can add individual project details and images here -->
+    </section>
+
+    <section id="hobbies">
+        <span class="section-title">Hobbies & Interests</span>
+        <p>Besides my professional interests, I am an avid runner and gamer. I've been involved in [specific runs/events] and have been playing [specific computer games].</p>
+        <!-- Add images or more details about your hobbies here -->
+    </section>
+
+    <section id="contact">
+        <span class="section-title">Contact Me</span>
+        <p>If you'd like to get in touch, feel free to email me at [your-email@example.com] or reach out through [any other preferred method].</p>
+    </section>
+
+    <article id="blog">
+        <span class="section-title">Latest Blog Post</span>
+        <h2>Title of the Blog Post</h2>
+        <p>This is where the content of your latest blog post would be. Whether you're discussing your recent experiences with running, giving insights into a machine learning project, or reviewing a computer game, the `<article>` tag is an excellent place for content that stands on its own.</p>
+        <!-- You can add more paragraphs, images, and other content as needed for your blog post -->
+    </article>
+
+    </div>
+
+</div>
+
+</body>
+</html>
